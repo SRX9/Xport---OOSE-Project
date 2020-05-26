@@ -1,0 +1,24 @@
+{
+  "name": "streamserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srx",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fuse.js": "^5.1.0",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "split-file": "^2.2.0",
+    "uuid": "^7.0.3"
+  }
+}
